@@ -1,0 +1,73 @@
+.products {
+    @include wauto(100%);
+    text-align: center;
+    margin-bottom: $margin-xxxl;
+
+    &__search {
+        @include wauto(80%);
+        @include dflex(space-between);
+        margin-top: $margin-xxl;
+        &__form {
+            @include dflex(center);
+        }
+
+        &__filtericon {
+            font-size: $icon-size-m;
+        }
+    }
+
+    &__items {
+        @include dflex(center, center, row, wrap);
+        @include wauto(90%);
+        text-align: start;
+        margin-top: $margin-xxl;
+        .products-card {
+            width: 100%;
+            &__image {
+                width: 100%;
+            }
+        }
+
+        @media (min-width:481px) and (max-width:768px){
+
+            @include dflex (space-between,center, row, wrap);
+            .products-card{
+                width: calc(50% - $margin-s);
+                
+            }
+        }
+
+        @media (min-width: 769px) {
+            @include dflex(space-between, center , row , wrap);
+            width: 80%;
+            .products-card {
+                width: calc((100% / 3) - $margin-m);
+            }
+        }
+    }
+
+    &__pcounter {
+        @include wauto(90%);
+        @include dflex(space-between, center);
+        max-width: 300px;
+
+        > *{
+            color: $color-black;
+            padding: $padding-xl;
+            border-radius: 50%;
+        }
+
+        .pcounter__selected {
+            background-color: $color-bg-highlight;
+            color: $color-purewhite;
+        }
+
+        > :hover {
+            background-color: $color-bg-highlight;
+            color: $color-purewhite;
+        }
+        
+    }
+}
+
+

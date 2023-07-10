@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Mobel</title>
+
+        <!-- START:: fontawesome -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <!-- END:: fontawesome -->
+
+        <!-- START:: css -->
+        <link rel="stylesheet" href="./assets/css/main.css" />
+        <!-- END:: css -->
+
+        <!-- START:: aos -->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- END:: aos -->
+
+        <!-- START:: material design icons -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        />
+        <style>
+            .material-symbols-outlined {
+                font-variation-settings: "FILL" 0, "wght" 200, "GRAD" 0,
+                    "opsz" 48;
+            }
+        </style>
+        <!-- END:: material design icons -->
+    </head>
+    <body>
+        <!-- START:: header -->
+        <header class="header">
+            <div class="header__container">
+                <a href="#">
+                    <img
+                        class="header__container__brand"
+                        src="./assets/images/icons/logo.png"
+                        alt="Mobel logo"
+                    />
+                </a>
+                <nav class="header__container__navbar navbar">
+                    <a href="#" class="navbar__item"
+                        >HOME
+                        <div class="navbar__item__underline"></div>
+                    </a>
+                    <a href="#" class="navbar__item"
+                        >PRODUCTS
+                        <div class="navbar__item__underline"></div>
+                    </a>
+                    <a href="#" class="navbar__item"
+                        >CONTACT US
+                        <div class="navbar__item__underline"></div>
+                    </a>
+                    <a href="#" class="navbar__item"
+                        >ABOUT
+                        <div class="navbar__item__underline"></div>
+                    </a>
+                </nav>
+
+                <i class="fa-solid fa-bars header__container__burger"></i>
+            </div>
+        </header>
+        <!-- END:: header -->
+
+        <!-- START:: slider -->
+        <div class="slider">
+            <div class="slider__description" data-aos="fade-right">
+                <h1 class="slider__description__heading">Modern furniture</h1>
+                <h2 class="slider__description__text">
+                    Designed by the best designers and producers.
+                </h2>
+                <h2 class="slider__description__text">
+                    Our products designed and produced for the bests.
+                </h2>
+            </div>
+
+            <div class="slider__footer">
+                <div class="slider__footer__item">
+                    <span
+                        class="material-symbols-outlined slider__footer__item__icon"
+                    >
+                        bed
+                    </span>
+                    <span class="slider__footer__item__title">BED</span>
+                </div>
+                <div class="slider__footer__item">
+                    <span
+                        class="material-symbols-outlined slider__footer__item__icon"
+                    >
+                        chair_alt
+                    </span>
+                    <span class="slider__footer__item__title">CHAIR</span>
+                </div>
+                <div class="slider__footer__item">
+                    <span
+                        class="material-symbols-outlined slider__footer__item__icon"
+                    >
+                        weekend
+                    </span>
+                    <span class="slider__footer__item__title">ARM CHAIR</span>
+                </div>
+
+                <div class="slider__footer__item">
+                    <span
+                        class="material-symbols-outlined slider__footer__item__icon"
+                    >
+                        table_bar
+                    </span>
+                    <span class="slider__footer__item__title">TABLE</span>
+                </div>
+            </div>
+        </div>
+        <!-- END:: slider -->
+
+        <!-- START:: popular -->
+        <div class="popular">
+            <!-- container width may change in other VP sizes -->
+
+            <div class="popular__header">
+                <h2 class="popular__header__title">POPULAR PRODUCTS</h2>
+                <h3 class="popular__header__description">
+                    Check out our latest collections
+                </h3>
+            </div>
+
+            <div class="popular__products">
+                <a href="#" class="popular-card" data-aos="flip-up">
+                    <img
+                        class="popular-card__image"
+                        src="./assets/images/products/product-1.png"
+                        alt="green sofa"
+                    />
+                    <h3 class="popular-card__title">GREEN CORNER</h3>
+                    <h4 class="popular-card__main-price">1,400$</h4>
+                    <h4 class="popular-card__new-price">999$</h4>
+
+                    <div class="popular-card__shop">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </a>
+
+                <a href="#" class="popular-card" data-aos="flip-up">
+                    <img
+                        class="popular-card__image"
+                        src="./assets/images/products/product-2.png"
+                        alt="green sofa"
+                    />
+                    <h3 class="popular-card__title">LAURA</h3>
+                    <h4 class="popular-card__main-price">1,400$</h4>
+                    <h4 class="popular-card__new-price">999$</h4>
+
+                    <div class="popular-card__shop">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </a>
+
+                <a href="#" class="popular-card" data-aos="flip-up">
+                    <img
+                        class="popular-card__image"
+                        src="./assets/images/products/product-3.png"
+                        alt="green sofa"
+                    />
+                    <h3 class="popular-card__title">NUDE</h3>
+                    <h4 class="popular-card__main-price">1,400$</h4>
+                    <h4 class="popular-card__new-price">999$</h4>
+
+                    <div class="popular-card__shop">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </a>
+
+                <a href="#" class="popular-card" data-aos="flip-up">
+                    <img
+                        class="popular-card__image"
+                        src="./assets/images/products/product-4.png"
+                        alt="green sofa"
+                    />
+                    <h3 class="popular-card__title">AURORA</h3>
+                    <h4 class="popular-card__main-price">1,400$</h4>
+                    <h4 class="popular-card__new-price">999$</h4>
+
+                    <div class="popular-card__shop">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </a>
+
+                <a href="#" class="popular-card" data-aos="flip-up">
+                    <img
+                        class="popular-card__image"
+                        src="./assets/images/products/product-5.png"
+                        alt="green sofa"
+                    />
+                    <h3 class="popular-card__title">DINING SET</h3>
+                    <h4 class="popular-card__main-price">1,400$</h4>
+                    <h4 class="popular-card__new-price">999$</h4>
+
+                    <div class="popular-card__shop">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </a>
+
+                <a href="#" class="popular-card" data-aos="flip-up">
+                    <img
+                        class="popular-card__image"
+                        src="./assets/images/products/product-6.png"
+                        alt="green sofa"
+                    />
+                    <h3 class="popular-card__title">SEAT CHAIR</h3>
+                    <h4 class="popular-card__main-price">1,400$</h4>
+                    <h4 class="popular-card__new-price">999$</h4>
+
+                    <div class="popular-card__shop">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </div>
+                </a>
+            </div>
+
+            <a href="#" class="popular__see-more"> View more </a>
+        </div>
+        <!-- END:: popular -->
+
+        <!-- START:: rooms -->
+        <div class="rooms">
+            <div class="rooms__item rooms__item--bedroom">
+                <span class="material-symbols-outlined rooms__item__icon">
+                    bed
+                </span>
+                <span class="rooms__item__title">BEDROOM</span>
+
+                <div class="rooms__item__detail">
+                    <h4 class="rooms__item__detail__title">
+                        KEEPING THINGS MINIMAL
+                    </h4>
+                    <h5 class="rooms__item__detail__description">
+                        Creating your very own bedroom
+                    </h5>
+                </div>
+            </div>
+
+            <div class="rooms__item rooms__item--office">
+                <span class="material-symbols-outlined rooms__item__icon">
+                    chair_alt
+                </span>
+                <span class="rooms__item__title">OFFICE</span>
+
+                <div class="rooms__item__detail">
+                    <h4 class="rooms__item__detail__title">
+                        KEEPING THINGS MINIMAL
+                    </h4>
+                    <h5 class="rooms__item__detail__description">
+                        Creating your very own bedroom
+                    </h5>
+                </div>
+            </div>
+
+            <div class="rooms__item rooms__item--living-room">
+                <span class="material-symbols-outlined rooms__item__icon">
+                    weekend
+                </span>
+                <span class="rooms__item__title">LIVING ROOM</span>
+
+                <div class="rooms__item__detail">
+                    <h4 class="rooms__item__detail__title">
+                        KEEPING THINGS MINIMAL
+                    </h4>
+                    <h5 class="rooms__item__detail__description">
+                        Creating your very own bedroom
+                    </h5>
+                </div>
+            </div>
+
+            <div class="rooms__item rooms__item--dining-room">
+                <span class="material-symbols-outlined rooms__item__icon">
+                    table_bar
+                </span>
+                <span class="rooms__item__title">DINING ROOM</span>
+
+                <div class="rooms__item__detail">
+                    <h4 class="rooms__item__detail__title">
+                        KEEPING THINGS MINIMAL
+                    </h4>
+                    <h5 class="rooms__item__detail__description">
+                        Creating your very own bedroom
+                    </h5>
+                </div>
+            </div>
+
+            <div class="rooms__item rooms__item--see-more rooms__see-more">
+                <i class="fa-solid fa-plus rooms__see-more__icon"></i>
+                <span class="rooms__see-more__text">VIEW MORE</span>
+            </div>
+        </div>
+        <!-- END:: rooms -->
+
+        <!-- START:: ideas -->
+        <div class="story">
+            <div class="story__description">
+                <h2 class="story__description__title">OUR STORY</h2>
+                <p class="story__description__text">
+                    We believe in creativity as one of the major forces of
+                    progress. With this idea, we traveled throughout Italy to
+                    find exceptional artisans and bring their unique handcrafted
+                    objects to connoisseurs everywhere.
+                </p>
+
+                <a href="#" class="story__description__button"
+                    >Read full story</a
+                >
+            </div>
+        </div>
+        <!-- END:: ideas -->
+
+        <!-- START:: blog -->
+        <div class="blog">
+            <h2 class="blog__title">BLOG</h2>
+            <h3 class="blog__description">Latest news from the blog</h3>
+
+            <div class="blog__container">
+                <a href="#" class="blog-card">
+                    <img
+                        src="./assets/images/blog/blog-1.jpg"
+                        alt="blog image"
+                        class="blog-card__image"
+                    />
+                    <div class="blog-card__description">
+                        <div class="blog-card__description__date">
+                            <span class="blog-card__description__date__month"
+                                >MAR</span
+                            >
+                            <span class="blog-card__description__date__day"
+                                >12</span
+                            >
+                            <span class="blog-card__description__date__year"
+                                >2023</span
+                            >
+                        </div>
+
+                        <h3 class="blog-card__description__text">
+                            What does your favorite dining chair say about you?
+                        </h3>
+                    </div>
+
+                    <div class="blog-card__more">Read more</div>
+                </a>
+
+                <a href="#" class="blog-card">
+                    <img
+                        src="./assets/images/blog/blog-2.jpg"
+                        alt="blog image"
+                        class="blog-card__image"
+                    />
+                    <div class="blog-card__description">
+                        <div class="blog-card__description__date">
+                            <span class="blog-card__description__date__month"
+                                >MAR</span
+                            >
+                            <span class="blog-card__description__date__day"
+                                >12</span
+                            >
+                            <span class="blog-card__description__date__year"
+                                >2023</span
+                            >
+                        </div>
+
+                        <h3 class="blog-card__description__text">
+                            What does your favorite dining chair say about you?
+                        </h3>
+                    </div>
+
+                    <div class="blog-card__more">Read more</div>
+                </a>
+
+                <a href="#" class="blog-card">
+                    <img
+                        src="./assets/images/blog/blog-8.jpg"
+                        alt="blog image"
+                        class="blog-card__image"
+                    />
+                    <div class="blog-card__description">
+                        <div class="blog-card__description__date">
+                            <span class="blog-card__description__date__month"
+                                >MAR</span
+                            >
+                            <span class="blog-card__description__date__day"
+                                >12</span
+                            >
+                            <span class="blog-card__description__date__year"
+                                >2023</span
+                            >
+                        </div>
+
+                        <h3 class="blog-card__description__text">
+                            What does your favorite dining chair say about you?
+                        </h3>
+                    </div>
+
+                    <div class="blog-card__more">Read more</div>
+                </a>
+            </div>
+
+            <a href="#" class="blog__see-more">View all posts</a>
+        </div>
+        <!-- END:: blog -->
+
+        <!-- START:: footer -->
+        <footer class="footer">
+            <div class="footer__contact">
+                <div class="footer__contact__detail">
+                    <h2 class="footer__contact__detail__title">
+                        VISIT OUR SHOWROOM
+                    </h2>
+                    <h3 class="footer__contact__detail__address">
+                        Tehran Yaftabad no123
+                    </h3>
+                    <h3 class="footer__contact__detail__working-time">
+                        9AM - 10PM
+                    </h3>
+
+                    <div class="footer__contact__detail__phone">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>(+98)21-123-456-78</span>
+                    </div>
+                </div>
+                <iframe
+                    class="footer__contact__location"
+                    src="https://balad.ir/embed?p=5h3NbwoXlCxk5B"
+                    title="مشاهده «مرکز خرید مبلمان یافت اباد» روی نقشه بلد"
+                    frameborder="0"
+                    style="border: 0"
+                    allowfullscreen=""
+                    aria-hidden="false"
+                    tabindex="0"
+                ></iframe>
+            </div>
+
+            <div class="footer__lists">
+                <div class="footer__lists__group">
+                    <h3 class="footer__lists__group__title">COMPANY</h3>
+                    <ul class="footer__lists__group__list">
+                        <li class="footer__lists__group__list__item">
+                            <a href="#">Wo we are</a>
+                        </li>
+                        <li class="footer__lists__group__list__item">
+                            <a href="#">The Mobel story</a>
+                        </li>
+                        <li class="footer__lists__group__list__item">
+                            <a href="#">Our design philosophy</a>
+                        </li>
+                        <li class="footer__lists__group__list__item">
+                            <a href="#">Contract division</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__lists__group">
+                    <h3 class="footer__lists__group__title">INFORMATION</h3>
+                    <ul class="footer__lists__group__list">
+                        <li class="footer__lists__group__list__item">
+                            <a href="#">Request sales representative</a>
+                        </li>
+                        <li class="footer__lists__group__list__item">
+                            <a href="#">How to buy</a>
+                        </li>
+                        <li class="footer__lists__group__list__item">
+                            <a href="#">Furniture outlet</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__lists__group">
+                    <h3 class="footer__lists__group__title">SECURITY</h3>
+                    <ul class="footer__lists__group__list">
+                        <li class="footer__lists__group__list__item">
+                            <a href="#">Who we are</a>
+                        </li>
+                        <li class="footer__lists__group__list__item">
+                            <a href="#">The Mobel story</a>
+                        </li>
+                        <li class="footer__lists__group__list__item">
+                            <a href="#">Our design philosophy</a>
+                        </li>
+                        <li class="footer__lists__group__list__item">
+                            <a href="#">Contract division</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer__lists__group">
+                    <h3 class="footer__lists__group__title">PRIVACY</h3>
+                    <ul class="footer__lists__group__list">
+                        <li class="footer__lists__group__list__item">
+                            <a href="#">Wo we are</a>
+                        </li>
+                        <li class="footer__lists__group__list__item">
+                            <a href="#">The Mobel story</a>
+                        </li>
+                        <li class="footer__lists__group__list__item">
+                            <a href="#">Our design philosophy</a>
+                        </li>
+                        <li class="footer__lists__group__list__item">
+                            <a href="#">Contract division</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__socials">
+                <div class="footer__socials__container">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-telegram"></i>
+                </div>
+            </div>
+        </footer>
+        <!-- END:: footer -->
+
+        <!-- START:: aos initialize -->
+        <script>
+            AOS.init();
+        </script>
+        <!-- END:: aos initialize -->
+    </body>
+</html>

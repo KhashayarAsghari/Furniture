@@ -1,0 +1,12 @@
+@mixin dflex($justify: center, $align: center, $direction: row, $wrap: nowrap) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+}
+
+@mixin wauto($width: 100%) {
+    width: $width;
+    margin: 0px auto;
+}

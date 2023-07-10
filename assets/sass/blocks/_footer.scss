@@ -1,0 +1,108 @@
+.footer {
+    background-color: $color-bg-black;
+    padding-top: $padding-xxl;
+
+
+    &__contact {
+        border-bottom: 2px solid $color-bg-gray;
+        padding-bottom: $padding-xl;
+        text-align: center;
+        
+
+        &__detail {
+            &__title {
+                color: $color-highlight;
+            }
+
+            &__address {
+                color: $color-white;
+                margin-top: $margin-s;
+                font-size: medium;
+            }
+
+            &__working-time {
+                color: $color-white;
+                margin-top: $margin-s;
+                font-size: medium;
+            }
+
+            &__phone {
+                color: $color-highlight;
+                margin: $margin-xxl 0;
+            }
+        }
+
+        &__location {
+            @include wauto(90%);
+
+            height: 300px;
+        }
+
+        @media (min-width: 769px) {
+            text-align: start;
+            @include wauto(80%);
+            @include dflex(space-between, center, row, nowrap);
+            &__detail {
+                width: $full-width;
+
+                &__phone {
+                    margin-bottom: 0px;
+                }
+            }
+
+            &__location {
+                width: $full-width;
+                height: 40vh;
+                min-height: 250px;
+            }
+        }
+    }
+
+    &__lists {
+        margin: $margin-xxl 0px;
+        @include dflex(start, stretch, row, wrap);
+
+        @media (min-width:769px){
+            @include dflex(center, stretch, row, wrap);
+        }
+
+        &__group {
+            margin: $margin-xl $margin-l;
+            &__title {
+                color: $color-highlight;
+            }
+
+            &__list {
+                color: $color-white;
+                padding-left: 0;
+                list-style-type: none;
+                
+                
+                &__item {
+                    margin: $margin-m 0px;
+                }
+                
+            }
+        }
+    }
+
+    &__socials {
+        @include dflex (space-between );
+
+        background-color: black;
+        color: $color-white;
+
+        &__container {
+            @include wauto(90%);
+            @include dflex (space-between, center);
+            text-align: center;
+            max-width: 250px;
+            
+
+            & i {
+                font-size: $icon-size-m;
+                padding: $padding-l;
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+.story {
+    height: 300px;
+    @include wauto(100%);
+    @include dflex();
+    background: url('../images/slider/story.jpg') no-repeat center fixed ;
+    background-size: cover;
+    color: $color-white;
+    text-align: center;
+    margin-top: $margin-xxxl;
+    margin-bottom: $margin-xxxl;
+
+
+    &__description {
+        @include wauto(80%);
+        max-width: 600px;
+
+        &__button {
+            padding: $padding-m $padding-xl;
+            border: 1px solid;
+            border-radius: 4px;
+        }
+    }
+
+    
+}

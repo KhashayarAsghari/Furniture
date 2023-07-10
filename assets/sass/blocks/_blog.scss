@@ -1,0 +1,32 @@
+.blog {
+    @include wauto(100%);
+    text-align: center;
+    margin-bottom: $margin-xxxl;
+
+    &__title {
+        color: $color-black;
+    }
+
+    &__description {
+        color: $color-gray;
+        margin-top: $margin-xl;
+        margin-bottom: $margin-xl;
+    }
+
+    &__container {
+        @include wauto(100%);
+        @include dflex(center, center, column, wrap);
+
+        @media (min-width: 769px) {
+            @include wauto(90%);
+            @include dflex(space-between, center, row, nowrap);
+        }
+    }
+
+    &__see-more {
+        background-color: $color-highlight;
+        padding: $padding-l $padding-xxxl;
+        border-radius: $margin-xs;
+        color: $color-purewhite;
+    }
+}

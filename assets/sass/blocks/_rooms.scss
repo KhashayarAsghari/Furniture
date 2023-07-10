@@ -1,0 +1,142 @@
+.rooms {
+    @include wauto(100%);
+    margin: $margin-xxxl 0px;
+    
+
+    &__item {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+        &__icon {
+            font-size: $icon-size-l !important;
+            color: $color-white;
+            transition: $transition-short;
+        }
+
+        &__title {
+            color: $color-white;
+            transition: $transition-short;
+        }
+
+        &--bedroom {
+            background-image: url("../images/slider/gallery-4.jpg");
+        }
+
+        &--office {
+            background-image: url("../images/slider/gallery-1.jpg");
+        }
+
+        &--living-room {
+            background-image: url("../images/slider/gallery-3.jpg");
+        }
+
+        &--dining-room {
+            background-image: url("../images/slider/gallery-2.jpg");
+        }
+
+        &--see-more {
+            background-color: $color-bg-highlight;
+        }
+
+        &__detail {
+            padding: $padding-xl $padding-l;
+            display: none;
+        }
+    }
+
+    &__see-more {
+        &__icon {
+            font-size: $icon-size-l;
+            color: $color-white;
+        }
+
+        &__text {
+            color: $color-white;
+        }
+    }
+
+    @include dflex(center, center, column);
+    &__item {
+        height: 200px;
+        width: 100%;
+        @include dflex(center, center, column);
+
+        &--see-more {
+            height: 100px;
+        }
+    }
+    &__see-more__icon {
+        display: none;
+    }
+
+    @media (min-width: 769px) {
+        @include wauto(100%);
+        height: 400px;
+        @include dflex(center, center, row, nowrap);
+        
+
+        &__see-more {
+            display: block;
+            &__icon {
+                margin-bottom: $margin-l;
+                display: block;
+            }
+
+            &__text {
+               
+                text-align: center;
+            }
+
+            
+        }
+
+        &__item {
+            width: 100%;
+            height: 100%;
+            flex: 2;
+            transition: $transition-long;
+            @include dflex(center, center, column);
+            position: relative;
+            overflow: hidden;
+
+            &__detail {
+                display: block;
+                position: absolute;
+
+                bottom: -200px;
+                left: 0;
+                transition: $transition-long;
+                width: 100%;
+                padding-left: $padding-l;
+                color: $color-white;
+
+                background-color: rgba($color: $color-highlight, $alpha: 0.5);
+                
+            }
+
+            &:hover {
+                // flex: 4;
+                flex-basis: 400px;
+                transition: 1s;
+
+                .rooms__item__detail{
+                    bottom: 0;
+                    transition: $transition-medium;
+                }
+
+                .rooms__item__icon  , .rooms__item__title {
+                    opacity: 0;
+                    transition: $transition-short;
+                }
+            }
+
+
+
+            &--see-more {
+                flex: 1;
+                height: 400px;
+            }
+        }
+    }
+}

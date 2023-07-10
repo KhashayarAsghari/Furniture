@@ -1,0 +1,91 @@
+.header {
+    width: 100%;
+    background-color: $color-bg-black;
+    &__container {
+        @include wauto(90%);
+
+        @include dflex(space-between);
+
+        &__brand {
+            width: $logo-width;
+        }
+
+        &__navbar {
+            display: none;
+            & > * {
+                color: $color-white;
+                padding: $padding-l $padding-l;
+            }
+
+            & > :last-child{
+                padding-right: 0px;
+            }
+        }
+
+        &__burger {
+            color: $color-white;
+        }
+    }
+
+    // tablet size
+    @media (min-width: 481px) and (max-width: 768px) {
+        &__container {
+            &__navbar {
+                display: block;
+            }
+
+            &__navbar > * {
+                display: none;
+            }
+
+            &__navbar > *:nth-child(-n + 2) {
+                display: inline-block;
+            }
+
+        }
+    }
+
+    // desktop size
+    @media (min-width: 769px) {
+        background-color: $color-bg-header;
+        position: fixed;
+        z-index: 10;
+
+        &__container {
+            @include wauto(80%);
+
+            &__brand {
+                width: 130px;
+            }
+
+            &__navbar {
+                display: block;
+
+                .navbar__item {
+                    position: relative;
+                    .navbar__item__underline {
+                        position: absolute;
+                        bottom: -4px;
+                        left: 50%;
+                        background-color: $color-bg-highlight;
+                        width: 0px;
+
+                        height: 5px;
+                        border-radius: 5px;
+                        transition: $transition-medium;
+                    }
+
+                    &:hover .navbar__item__underline {
+                        width: 100%;
+                        left: 0;
+                        transition: $transition-medium;
+                    }
+                }
+            }
+
+            &__burger {
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,58 @@
+.popular {
+    width: 100%;
+    text-align: center;
+    margin-bottom: $margin-xxxl;
+
+    &__header {
+        // margin-top: $margin-l;
+        @include dflex(center, center, column);
+        &__title {
+            color: $color-black;
+            text-align: center;
+            margin-top: $margin-xxl;
+        }
+
+        &__description {
+            font-size: 0.9rem;
+            color: $color-gray;
+            margin-top: $margin-xl;
+        }
+    }
+
+    &__products {
+        @include dflex(center, center, row, wrap);
+        @include wauto(90%);
+        text-align: start;
+        margin-top: $margin-xxl;
+        .popular-card {
+            width: 100%;
+            &__image {
+                width: 100%;
+            }
+        }
+
+        @media (min-width:481px) and (max-width:768px){
+
+            @include dflex (space-between,center, row, wrap);
+            .popular-card{
+                width: calc(50% - $margin-s);
+                
+            }
+        }
+
+        @media (min-width: 769px) {
+            @include dflex(space-between, center , row , wrap);
+            width: 80%;
+            .popular-card {
+                width: calc((100% / 3) - $margin-m);
+            }
+        }
+    }
+}
+
+.popular__see-more {
+    background-color: $color-highlight;
+    padding: $padding-l $padding-xxxl;
+    border-radius: $margin-xs;
+    color: $color-purewhite;
+}

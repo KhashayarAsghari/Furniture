@@ -1,0 +1,47 @@
+.products-card {
+    z-index: 1;
+    background-color: $color-bg-purewhite;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: $margin-xl;
+    padding-bottom: $padding-xl;
+    z-index: 1;
+
+    &__image {
+        width: 100%;
+    }
+
+    &__title {
+        margin-left: $margin-l;
+    }
+
+    &__main-price {
+        margin: $margin-xs;
+        margin-left: $margin-l;
+        text-decoration: line-through;
+        color: $color-gray;
+    }
+
+    &__new-price {
+        margin: $margin-xs;
+        margin-left: $margin-l;
+
+    }
+
+    &__shop{
+        padding: $padding-xxxl $padding-s $padding-s $padding-xxxl;
+        background: linear-gradient(135deg, transparent 50%, $color-highlight 50%);
+        color: $color-purewhite;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        transform: translateX(100px);
+        transition: transform $transition-short;
+    }
+
+    &:hover &__shop {
+        animation: card-shopping 0.5s ;
+        transform: translateX(0px);
+        transition: transform $transition-short;
+    }
+}

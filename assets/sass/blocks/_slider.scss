@@ -1,0 +1,48 @@
+.slider {
+    @include wauto(100%);
+    @include dflex(space-between, flex-start, column, nowrap);
+    height: 75vh;
+    background: url("../images/slider/gallery-2.jpg") no-repeat center;
+    background-size: cover;
+    color: $color-white;
+
+    &__products {
+        height: 50vh;
+        background: url(../images/slider/gallery-3.jpg) no-repeat center;
+        & > :first-child {
+            padding: 10vh 0px 0px 5vw;
+            @media (min-width: 769px){
+                padding: 15vh 0px 0px 10vw;
+            }
+        }
+    }
+
+    &__description {
+        padding: 20vh 0px 0px 5vw;
+        &__heading {
+            margin-bottom: $margin-xxl;
+        }
+
+        &__text {
+            font-size: 1rem;
+            margin-bottom: $margin-m;
+        }
+        @media (min-width: 769px){
+            padding: 20vh 0px 0px 10vw;
+        }
+    }
+
+    &__footer {
+        @include wauto(100%);
+        @include dflex(space-around, flex-end);
+        margin-bottom: $margin-l;
+        &__item {
+            @include dflex(center, center, column, nowrap);
+            color: $color-white;
+
+            &__icon {
+                font-size: $icon-size-xl !important;
+            }
+        }
+    }
+}
