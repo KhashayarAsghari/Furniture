@@ -24,17 +24,18 @@
         @include wauto(90%);
         text-align: start;
         margin-top: $margin-xxl;
-        .popular-card {
+        .products-card {
             width: 100%;
             &__image {
                 width: 100%;
+                
             }
         }
 
         @media (min-width:481px) and (max-width:768px){
 
             @include dflex (space-between,center, row, wrap);
-            .popular-card{
+            .products-card{
                 width: calc(50% - $margin-s);
                 
             }
@@ -43,7 +44,7 @@
         @media (min-width: 769px) {
             @include dflex(space-between, center , row , wrap);
             width: 80%;
-            .popular-card {
+            .products-card {
                 width: calc((100% / 3) - $margin-m);
             }
         }
