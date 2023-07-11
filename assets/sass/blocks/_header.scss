@@ -49,6 +49,7 @@
     @media (min-width: 769px) {
         background-color: $color-bg-header;
         position: fixed;
+        top: 0;
         z-index: 10;
 
         &__container {

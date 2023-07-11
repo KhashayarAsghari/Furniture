@@ -1,0 +1,147 @@
+h1.product-title {
+    display: none;
+}
+
+.p-details {
+    @include wauto(90%);
+    @include dflex(flex-start, flex-start, column);
+    background-color: $color-bg-purewhite;
+    padding: $padding-xl $padding-l;
+    margin: $margin-xl auto;
+    .fig {
+        margin-top: 500px;
+        @include wauto(100%);
+
+        padding-bottom: $padding-xl;
+        border-bottom: 1px solid $color-highlight;
+
+        &__image {
+            @include wauto(100%);
+
+            margin-bottom: $margin-xxl;
+            max-width: 769px;
+        }
+
+        &__title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: $color-black;
+        }
+    }
+
+    .price {
+        @include wauto(100%);
+        @include dflex(center, flex-start, column);
+        margin-top: $margin-xl;
+        padding-bottom: $padding-xl;
+        border-bottom: 1px solid $color-highlight;
+
+        &__prev {
+            font-size: 0.8rem;
+            text-decoration: line-through;
+        }
+        &__new {
+            margin-top: $margin-s;
+            margin-bottom: $margin-xl;
+            color: $color-highlight;
+        }
+
+        &__add-to-cart {
+            margin-top: $margin-xl;
+            padding: $padding-xl $padding-l;
+            @include wauto(100%);
+            background-color: $color-bg-highlight;
+            outline: none;
+            border: none;
+            color: $color-purewhite;
+            font-size: 1.2rem;
+        }
+    }
+
+    .colors {
+        @include wauto(100%);
+        @include dflex(center, flex-start, column);
+        margin-top: $margin-xl;
+        padding-bottom: $padding-xl;
+        border-bottom: 1px solid $color-highlight;
+
+        &__header {
+            @include wauto(100%);
+            @include dflex(space-between);
+            font-size: 0.8rem;
+
+            &__title {
+                color: $color-black;
+            }
+
+            &__count {
+                color: $color-gray;
+                font-size: 0.8rem;
+            }
+        }
+
+        &__container {
+            margin-top: $margin-xl;
+            padding: $padding-l 0;
+            @include wauto(95%);
+            overflow-x: auto;
+            @include dflex(flex-start, center);
+            &__item {
+                @include dflex(flex-start);
+                margin-right: $margin-l;
+
+                background-color: $color-bg-lightgray;
+                border-radius: 15% 15% 15% 15% / 50% 50% 50% 50%;
+                padding: $padding-s $padding-s;
+                &__title {
+                    font-size: 0.8rem;
+                    color: $color-black;
+                }
+
+                &__color {
+                    width: 20px;
+                    height: 20px;
+                    border-radius: 50%;
+                    background-color: green;
+                    margin-left: $margin-s;
+                }
+            }
+        }
+    }
+
+    .specs {
+        @include wauto(100%);
+        @include dflex(center, flex-start, column);
+        margin-top: $margin-xl;
+        padding-bottom: $padding-xl;
+
+        &__header {
+            @include wauto(100%);
+            @include dflex(space-between);
+            font-size: 1rem;
+            color: $color-black;
+        }
+
+        &__details {
+            @include wauto(100%);
+            margin-top: $margin-xl;
+            &__item {
+                @include wauto(95%);
+                @include dflex(flex-start, stretch);
+                color: $color-gray;
+                margin: 0px 0px $margin-m $margin-l;
+                border-bottom: 1px dashed $color-lightgray;
+
+                font-size: 0.8rem;
+                &__title {
+                    flex: 2;
+                }
+
+                &__description {
+                    flex: 3;
+                    padding-left: $padding-m;
+                }
+            }
+        }
+    }
+}
