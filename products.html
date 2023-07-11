@@ -45,7 +45,7 @@
         <!-- START:: header -->
         <header class="header">
             <div class="header__container">
-                <a href="#">
+                <a href="./index.html">
                     <img
                         class="header__container__brand"
                         src="./assets/images/icons/logo.png"
@@ -53,11 +53,11 @@
                     />
                 </a>
                 <nav class="header__container__navbar navbar">
-                    <a href="#" class="navbar__item"
+                    <a href="./index.html" class="navbar__item"
                         >HOME
                         <div class="navbar__item__underline"></div>
                     </a>
-                    <a href="#" class="navbar__item"
+                    <a href="./products.html" class="navbar__item"
                         >PRODUCTS
                         <div class="navbar__item__underline"></div>
                     </a>
@@ -126,319 +126,453 @@
         </div>
         <!-- END:: slider -->
 
-        <!-- START:: products -->
-        <div class="products">
-            <!-- container width may change in other VP sizes -->
+        <div class="products-container">
 
-            <div class="products__search">
-                <form class="products__search__form" action="#">
-                    <label for="sort">sort by:</label>
-                    <select name="sort" id="sort">
-                        <option value="volvo">newest</option>
-                        <option value="saab">expensive</option>
-                        <option value="opel">cheap</option>
-                        <option value="audi">popular</option>
-                    </select>
-                </form>
 
-                <i class="fa-solid fa-filter products__search__filtericon"></i>
+            
+            <!-- START:: aside filters -->
+            <form action="#" class="filters">
+                <div class="filters__header">
+                    <h3 class="filters__header__title">Filters</h3>
+                    <a href="#" class="filters__header__remove-filters"
+                        >Remove filters</a
+                    >
+                </div>
+                <div class="filters__type">
+                    <div class="filters__type__header">
+                        <h4 class="filters__type__title">Type</h4>
+                        <i class="fa-solid fa-chevron-down filters__type__icon"></i>
+                    </div>
+
+                    <div class="filters__type__item">
+                        <label for="l-shape" class="filters__type__item__title">L shape</label>
+                        <input id="l-shape" name="l-shape" type="checkbox" class="filters__type__item__check">
+                    </div>
+
+                    <div class="filters__type__item">
+                        <label for="chair" class="filters__type__item__title">Chair</label>
+                        <input id="chair" name="chair" type="checkbox" class="filters__type__item__check">
+                    </div>
+
+                    <div class="filters__type__item">
+                        <label for="couch" class="filters__type__item__title">Couch</label>
+                        <input id="couch" name="couch" type="checkbox" class="filters__type__item__check">
+                    </div>
+
+                    <div class="filters__type__item">
+                        <label for="bed" class="filters__type__item__title">Bed</label>
+                        <input id="bed" name="bed" type="checkbox" class="filters__type__item__check">
+                    </div>
+                </div>
+
+                <div class="filters__type">
+                    <div class="filters__type__header">
+                        <h4 class="filters__type__title">Color</h4>
+                        <i class="fa-solid fa-chevron-down filters__type__icon"></i>
+                    </div>
+
+                    <div class="filters__type__item">
+                        <label for="white" class="filters__type__item__title">White</label>
+                        <input id="white" name="white" type="checkbox" class="filters__type__item__check">
+                    </div>
+
+                    <div class="filters__type__item">
+                        <label for="black" class="filters__type__item__title">Black</label>
+                        <input id="black" name="black" type="checkbox" class="filters__type__item__check">
+                    </div>
+
+                    <div class="filters__type__item">
+                        <label for="blue" class="filters__type__item__title">Blue</label>
+                        <input id="blue" name="blue" type="checkbox" class="filters__type__item__check">
+                    </div>
+
+                    <div class="filters__type__item">
+                        <label for="red" class="filters__type__item__title">Red</label>
+                        <input id="red" name="red" type="checkbox" class="filters__type__item__check">
+                    </div>
+
+                </div>
+
+
+                <div class="filters__type">
+                    <div class="filters__type__header">
+                        <h4 class="filters__type__title">Frame material</h4>
+                        <i class="fa-solid fa-chevron-down filters__type__icon"></i>
+                    </div>
+
+                    <div class="filters__type__item">
+                        <label for="wood" class="filters__type__item__title">Wood</label>
+                        <input id="wood" name="wood" type="checkbox" class="filters__type__item__check">
+                    </div>
+
+                    <div class="filters__type__item">
+                        <label for="steel" class="filters__type__item__title">Steel</label>
+                        <input id="steel" name="steel" type="checkbox" class="filters__type__item__check">
+                    </div>
+
+                    <div class="filters__type__item">
+                        <label for="hdf" class="filters__type__item__title">HDF</label>
+                        <input id="hdf" name="hdf" type="checkbox" class="filters__type__item__check">
+                    </div>
+
+                </div>
+
+
+                <div class="filters__type">
+                    <div class="filters__type__header">
+                        <h4 class="filters__type__title">Cover material</h4>
+                        <i class="fa-solid fa-chevron-down filters__type__icon"></i>
+                    </div>
+
+                    <div class="filters__type__item">
+                        <label for="leather" class="filters__type__item__title">Leather</label>
+                        <input id="leather" name="leather" type="checkbox" class="filters__type__item__check">
+                    </div>
+
+                    <div class="filters__type__item">
+                        <label for="plastic" class="filters__type__item__title">Plastic</label>
+                        <input id="plastic" name="plastic" type="checkbox" class="filters__type__item__check">
+                    </div>
+
+                    <div class="filters__type__item">
+                        <label for="wood" class="filters__type__item__title">Wood</label>
+                        <input id="wood" name="wood" type="checkbox" class="filters__type__item__check">
+                    </div>
+
+                    <div class="filters__type__item">
+                        <label for="wicker" class="filters__type__item__title">Wicker</label>
+                        <input id="wicker" name="wicker" type="checkbox" class="filters__type__item__check">
+                    </div>
+
+                </div>
+            </form>
+            <!-- END:: aside filters -->
+
+
+
+
+
+
+
+
+            <!-- START:: products -->
+            <div class="products">
+                <div class="products__search">
+                    <form class="products__search__form" action="#">
+                        <label for="sort">sort by:</label>
+                        <select name="sort" id="sort">
+                            <option value="volvo">newest</option>
+                            <option value="saab">expensive</option>
+                            <option value="opel">cheap</option>
+                            <option value="audi">popular</option>
+                        </select>
+                    </form>
+
+                    <i
+                        class="fa-solid fa-filter products__search__filtericon"
+                    ></i>
+                </div>
+
+                <!-- START:: products list -->
+                <div class="products__items">
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-1.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">GREEN CORNER</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-2.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">LAURA</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-3.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">NUDE</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-4.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">AURORA</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-5.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">DINING SET</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-6.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">SEAT CHAIR</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-1.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">GREEN CORNER</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-2.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">LAURA</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-3.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">NUDE</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-4.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">AURORA</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-5.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">DINING SET</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-6.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">SEAT CHAIR</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-1.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">GREEN CORNER</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-2.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">LAURA</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-3.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">NUDE</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-4.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">AURORA</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-5.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">DINING SET</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+
+                    <a href="#" class="products-card" data-aos="flip-up">
+                        <img
+                            class="products-card__image"
+                            src="./assets/images/products/product-6.png"
+                            alt="green sofa"
+                        />
+                        <h3 class="products-card__title">SEAT CHAIR</h3>
+                        <h4 class="products-card__main-price">1,400$</h4>
+                        <h4 class="products-card__new-price">999$</h4>
+
+                        <div class="products-card__shop">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </a>
+                </div>
+                <!-- START:: products list -->
+
+                <!-- START:: page counter -->
+                <div class="products__pcounter">
+                    <a href="#"
+                        ><i
+                            class="fa-solid fa-chevron-left products__pcounter__prev"
+                        ></i
+                    ></a>
+                    <a
+                        href="#"
+                        class="products__pcounter__num pcounter__selected"
+                        >1</a
+                    >
+                    <a href="#" class="products__pcounter__num">2</a>
+                    <a href="#" class="products__pcounter__num">3</a>
+                    <a href="#"
+                        ><i
+                            class="fa-solid fa-chevron-right products__pcounter__next"
+                        ></i
+                    ></a>
+                </div>
+                <!-- END:: page counter -->
             </div>
+            <!-- END:: products -->
 
-            <!-- START:: products list -->
-            <div class="products__items">
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-1.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">GREEN CORNER</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-2.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">LAURA</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-3.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">NUDE</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-4.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">AURORA</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-5.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">DINING SET</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-6.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">SEAT CHAIR</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-1.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">GREEN CORNER</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-2.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">LAURA</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-3.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">NUDE</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-4.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">AURORA</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-5.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">DINING SET</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-6.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">SEAT CHAIR</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-1.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">GREEN CORNER</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-2.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">LAURA</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-3.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">NUDE</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-4.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">AURORA</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-5.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">DINING SET</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-
-                <a href="#" class="products-card" data-aos="flip-up">
-                    <img
-                        class="products-card__image"
-                        src="./assets/images/products/product-6.png"
-                        alt="green sofa"
-                    />
-                    <h3 class="products-card__title">SEAT CHAIR</h3>
-                    <h4 class="products-card__main-price">1,400$</h4>
-                    <h4 class="products-card__new-price">999$</h4>
-
-                    <div class="products-card__shop">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </div>
-                </a>
-            </div>
-            <!-- START:: products list -->
-
-            <!-- START:: page counter -->
-            <div class="products__pcounter">
-                <a href="#"
-                    ><i
-                        class="fa-solid fa-chevron-left products__pcounter__prev"
-                    ></i
-                ></a>
-                <a href="#" class="products__pcounter__num pcounter__selected"
-                    >1</a
-                >
-                <a href="#" class="products__pcounter__num">2</a>
-                <a href="#" class="products__pcounter__num">3</a>
-                <a href="#"
-                    ><i
-                        class="fa-solid fa-chevron-right products__pcounter__next"
-                    ></i
-                ></a>
-            </div>
-            <!-- END:: page counter -->
+            
         </div>
-        <!-- END:: products -->
 
         <!-- START:: footer -->
         <footer class="footer">
