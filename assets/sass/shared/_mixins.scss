@@ -10,3 +10,17 @@
     width: $width;
     margin: 0px auto;
 }
+
+@mixin filtersgroup() {
+    @include wauto(90%);
+    padding: $padding-xl 0px;
+    @include dflex(space-between, center);
+    border-bottom: 1px solid $color-lightgray;
+}
+
+
+@mixin filtersitem() {
+    @include wauto(90%);
+    padding: $padding-s 0px;
+    @include dflex(space-between, center);
+}

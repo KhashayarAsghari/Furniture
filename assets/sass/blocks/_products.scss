@@ -1,3 +1,15 @@
+.products-container {
+    @include dflex(space-around,flex-start);
+    @include wauto(95%);
+    .products {
+
+    }
+
+    .filters {
+        flex-basis: 300px;
+        margin-right: $margin-xl
+    }
+}
 .products {
     @include wauto(100%);
     text-align: center;
@@ -14,11 +26,16 @@
         &__filtericon {
             font-size: $icon-size-m;
         }
+
+        @media (min-width: 769px){
+            display: none;
+        }
     }
 
     &__items {
         @include dflex(center, center, row, wrap);
-        @include wauto(90%);
+        @include wauto(100%);
+        
         text-align: start;
         margin-top: $margin-xxl;
         .products-card {
@@ -39,7 +56,7 @@
 
         @media (min-width: 769px) {
             @include dflex(space-between, center , row , wrap);
-            width: 80%;
+            width: 100%;
             .products-card {
                 width: calc((100% / 3) - $margin-m);
             }
