@@ -31,6 +31,9 @@
         <li>
             <a href="#animations">Animations</a>
         </li>
+        <li>
+            <a href="#some-wonderful-features">Some wonderful features</a>
+        </li>
       </ul>
     </li>
     <li>
@@ -53,6 +56,7 @@
 ![Furniture Screen Shot](./assets/images/icons/logo.png)
 
 There are many great features in this project.
+note it has styled using sass
 
 ### It's BEM based
 Every HTML element has a BEM based class name: 
@@ -82,6 +86,23 @@ Houwever the most animations in this project executed by AOS library but some an
 <br />
 ![animations Screen Shot](./assets/images/shots/animation.png)
 <br />
+
+
+### Some wonderful features
+Here is some features of project that you can see on executed project on main page (index.html), isn't it amazing? :smile:
+
+#### Accordion
+<br />
+![accordion gif](./assets/images/shots/acardeon.gif)
+<br />
+
+
+### Responsive
+It developed responsive to execute well on any device such as mini size mobile phones and big size wide monitors. however the bes experience of usage is for desktop size monitors because of some ":hover" effects (when mouse in on an element).
+<br />
+![responsive Screen Shot](./assets/images/shots/responsive.gif)
+<br />
+
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
