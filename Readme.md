@@ -111,11 +111,9 @@ This project made using following technologies:
 * [![html5][html5]][html5-url]
 * [![Sass][Sass]][Sass-url]
 * [![css3][css3]][css3-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [![git][git]][git-url]
+* [![github][github]][github-url]
+
 
 
 <!-- CONTACT -->
@@ -131,17 +129,11 @@ Project Link: [https://github.com/KhashayarAsghari/Furniture](https://github.com
 <!-- MARKDOWN LINKS & IMAGES -->
 [html5]: https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [html5-url]: https://www.w3.org/
-[Sass]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=CC6699
+[Sass]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white
 [Sass-url]: https://sass-lang.com/
-[css3]: https://img.shields.io/badge/css3-35495E?style=for-the-badge&logo=css3&logoColor=1572B6
-[css3-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+[css3]: https://img.shields.io/badge/css3-35495E?style=for-the-badge&logo=css3&logoColor=white
+[css3-url]: https://w3.com/
+[git]: https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white
+[git-url]: https://git-scm.com/
+[github]: https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white
+[github-url]: https://github.com/
