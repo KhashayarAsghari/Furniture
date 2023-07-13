@@ -17,7 +17,12 @@
   <summary>Table of Contents</summary>
   <ul>
     <li>
-      <a href="#Project features">Project features</a>
+      <a href="#Project-features">Project features</a>
+      <ul>
+        <li>
+            <a href="#it's-bem-based">It's BEM based</a>
+        </li>
+      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -53,7 +58,8 @@ BEM help developers to select elements in css, much more better and organized.
 All variables stored in _variables.scss file and it is filled by useful variables for all over the project such as "colors", "margins" and etc. so you can easily change some variable values to change it in the whole project
 
 </br>
-![Furniture Screen Shot](./assets/images/shots/variables.png)
+![variables Screen Shot](./assets/images/shots/variables.png)
+</br>
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
