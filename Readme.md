@@ -128,7 +128,7 @@ This project made using following technologies:
 <!-- CONTACT -->
 ## Contact
 
-Khashayar Asghari - [@your_twitter](https://twitter.com/khashayar_asgh) - eng.asghari75.com
+Khashayar Asghari - [@khashayar_asgh](https://twitter.com/khashayar_asgh) - eng.asghari75@gmail.com
 
 Project Link: [https://github.com/KhashayarAsghari/Furniture](https://github.com/KhashayarAsghari/Furniture)
 
