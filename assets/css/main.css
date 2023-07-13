@@ -1668,6 +1668,8 @@ h1.product-title {
           flex-direction: column;
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
+  width: 90%;
+  margin: 0px auto;
   margin-bottom: 64px;
 }
 .contact__details__location {
@@ -1751,4 +1753,36 @@ h1.product-title {
   outline: none;
   border: none;
   color: #eee;
+}
+@media (min-width: 769px) {
+  .contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    margin-top: 64px;
+  }
+  .contact__details {
+    margin-right: 16px;
+    margin-top: 0px;
+  }
+  .contact__details__location {
+    margin-top: 4px;
+  }
+  .contact__form {
+    position: sticky;
+    top: 64px;
+    margin-bottom: 14px;
+  }
 }/*# sourceMappingURL=main.css.map */

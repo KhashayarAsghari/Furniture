@@ -4,6 +4,7 @@
 
     &__details {
         @include dflex(center,center,column,nowrap);
+        @include wauto(90%);
         margin-bottom: $margin-xxxl;
         &__location {
             margin-top: $margin-xxxl;
@@ -86,6 +87,28 @@
             }
         }
 
+
+    }
+
+    @media (min-width: 769px) {
+        @include dflex(center, flex-start);
+        margin-top: $margin-xxxl;
+
+        &__details {
+            margin-right: $margin-xl;
+            margin-top: 0px;
+
+            &__location {
+                margin-top: $margin-xs;
+            }
+
+        }
+
+        &__form {
+            position: sticky;
+            top: $margin-xxxl;
+            margin-bottom: $margin-l;
+        }
 
     }
 }
