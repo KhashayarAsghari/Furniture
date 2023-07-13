@@ -5,6 +5,7 @@
 .blogpage {
     @include wauto(90%);
     margin-top: $margin-xxl;
+    margin-bottom: $margin-xl;
     background-color: $color-bg-purewhite;
 
     &__image {
@@ -17,5 +18,49 @@
         @include wauto(90%);
         margin-top: $margin-xl;
         margin-bottom: $margin-xl;
+    }
+
+    &__specs {
+        @include dflex(flex-start);
+        margin: $margin-xl 0px;
+        padding: $padding-l 5%;
+        border-top: 1px solid $color-lightgray;
+        border-bottom: 1px solid $color-lightgray;
+        color: $color-gray;
+
+        &__publisher {
+            @include dflex(flex-start);
+            &__icon {
+
+            }
+
+            &__name {
+                font-size: 0.8rem;
+                margin-left: $margin-l;
+            }
+        }
+
+        &__date {
+            margin-left: $margin-xxl;
+            @include dflex(flex-start);
+            &__icon {
+
+            }
+
+            &__detail {
+                font-size: 0.8rem;
+                margin-left: $margin-l;
+            }
+        }
+    }
+
+    &__content {
+        padding: $padding-l 5%;
+    }
+
+    @media (min-width: 769px){
+        position: relative;
+        top: -80px;
+        max-width: 800px;
     }
 }

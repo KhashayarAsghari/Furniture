@@ -1796,6 +1796,7 @@ h1.product-title {
   width: 90%;
   margin: 0px auto;
   margin-top: 32px;
+  margin-bottom: 16px;
   background-color: #fff;
 }
 .blogpage__image {
@@ -1807,4 +1808,79 @@ h1.product-title {
   margin: 0px auto;
   margin-top: 16px;
   margin-bottom: 16px;
+}
+.blogpage__specs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  margin: 16px 0px;
+  padding: 0.9rem 5%;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  color: #777;
+}
+.blogpage__specs__publisher {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+.blogpage__specs__publisher__name {
+  font-size: 0.8rem;
+  margin-left: 14px;
+}
+.blogpage__specs__date {
+  margin-left: 32px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+}
+.blogpage__specs__date__detail {
+  font-size: 0.8rem;
+  margin-left: 14px;
+}
+.blogpage__content {
+  padding: 0.9rem 5%;
+}
+@media (min-width: 769px) {
+  .blogpage {
+    position: relative;
+    top: -80px;
+    max-width: 800px;
+  }
 }/*# sourceMappingURL=main.css.map */
