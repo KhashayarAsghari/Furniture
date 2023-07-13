@@ -28,6 +28,9 @@
         <li>
             <a href="#mixins">mixins</a>
         </li>
+        <li>
+            <a href="#animations">Animations</a>
+        </li>
       </ul>
     </li>
     <li>
@@ -74,10 +77,10 @@ The mixins are awesome, mixins help developer to add similar styles to many elem
 <br />
 
 
-### mixins
-The mixins are awesome, mixins help developer to add similar styles to many elements by less codes, and some mixins in this project could get wanted values to style more customized.
+### Animations
+Houwever the most animations in this project executed by AOS library but some animations coded and styled manually in "_animations.scss" file.
 <br />
-![mixins Screen Shot](./assets/images/shots/mixins.png)
+![animations Screen Shot](./assets/images/shots/animation.png)
 <br />
 
 Here's why:
