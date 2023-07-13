@@ -92,13 +92,14 @@ Houwever the most animations in this project executed by AOS library but some an
 Here is some features of project that you can see on executed project on main page (index.html), isn't it amazing? :smile:
 
 #### Accordion
+Accordion section of main page, the wonderful part of this section is its hover effect
 <br />
-![accordion gif](./assets/images/shots/acardeon.gif)
+![accordion Screen Shot](./assets/images/shots/accordion.gif)
 <br />
 
 
 ### Responsive
-It developed responsive to execute well on any device such as mini size mobile phones and big size wide monitors. however the bes experience of usage is for desktop size monitors because of some ":hover" effects (when mouse in on an element).
+It developed responsive to execute well on any device such as mini size mobile phones and big size wide monitors. however the bes experience of usage is for desktop size monitors because of some ":hover" effects (when mouse is on an element).
 <br />
 ![responsive Screen Shot](./assets/images/shots/responsive.gif)
 <br />
