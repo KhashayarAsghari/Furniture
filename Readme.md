@@ -2,7 +2,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/KhashayarAsghari/Furniture">
-    <img src="./assets/images/icons/logo.png" alt="Logo" width="80" height="80">
+    <img src="./assets/images/icons/logo.png" alt="Logo" width="150" height="80">
   </a>
 
   <h3 align="center">Furniture</h3>
@@ -43,10 +43,14 @@
 
 ![Furniture Screen Shot](./assets/images/icons/logo.png)
 
-There are many great README templates available on GitHub; however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+There are many great features in this project.
+
+### It's BEM based
+Every HTML element has a BEM base class name: 
+BEM helps developer to select elements in css, much more better and organized.
+![Furniture Screen Shot](./assets/images/shots/BEM.png)
 
 
-[![Furniture Screen Shot][furniture-screenshot]](./assets/images/icons/logo.png)
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
 * You shouldn't be doing the same tasks over and over like creating a README from scratch
