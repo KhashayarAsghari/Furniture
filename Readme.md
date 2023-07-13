@@ -61,7 +61,7 @@ BEM help developers to select elements in css, much more better and organized.
 All variables stored in _variables.scss file and it is filled by useful variables for all over the project such as "colors", "margins" and etc. so you can easily change some variable values to change it in the whole project
 
 </br>
-![BEM Screen Shot](./assets/images/shots/variables.png)
+[variables Screen Shot](./assets/images/shots/variables.png)
 </br>
 
 Here's why:
