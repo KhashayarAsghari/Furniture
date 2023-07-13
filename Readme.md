@@ -34,6 +34,15 @@
         <li>
             <a href="#some-wonderful-features">Some wonderful features</a>
         </li>
+        <li>
+            <a href="#responsive">Responsive</a>
+        </li>
+        <li>
+            <a href="#built-with">Built with</a>
+        </li>
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
       </ul>
     </li>
     <li>
