@@ -8,24 +8,19 @@
   <h3 align="center">Furniture</h3>
 
   <p align="center">
-    A awesome furniture website front-end template
+    An awesome furniture website front-end template
     <br />
   </p>
+
+
 </div>
   <summary>Table of Contents</summary>
-  <ol>
+  <ul>
     <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+      <a href="#Project features">Project features</a>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
@@ -33,7 +28,7 @@
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
+  </ul>
 </details>
 
 
@@ -46,10 +41,19 @@
 There are many great features in this project.
 
 ### It's BEM based
-Every HTML element has a BEM base class name: 
-BEM helps developer to select elements in css, much more better and organized.
+Every HTML element has a BEM based class name: 
+BEM help developers to select elements in css, much more better and organized.
+</br>
 ![Furniture Screen Shot](./assets/images/shots/BEM.png)
 
+
+</br>
+
+### It uses variables
+All variables stored in _variables.scss file and it is filled by useful variables for all over the project such as "colors", "margins" and etc. so you can easily change some variable values to change it in the whole project
+
+</br>
+![Furniture Screen Shot](./assets/images/shots/variables.png)
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
