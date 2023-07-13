@@ -20,7 +20,10 @@
       <a href="#Project-features">Project features</a>
       <ul>
         <li>
-            <a href="#it's-bem-based">It's BEM based</a>
+            <a href="#its-bem-based">It's BEM based</a>
+        </li>
+        <li>
+            <a href="#it-uses-variables">It uses variables</a>
         </li>
       </ul>
     </li>
@@ -49,7 +52,7 @@ There are many great features in this project.
 Every HTML element has a BEM based class name: 
 BEM help developers to select elements in css, much more better and organized.
 </br>
-![Furniture Screen Shot](./assets/images/shots/BEM.png)
+![BEM Screen Shot](./assets/images/shots/BEM.png)
 
 
 </br>
@@ -58,7 +61,7 @@ BEM help developers to select elements in css, much more better and organized.
 All variables stored in _variables.scss file and it is filled by useful variables for all over the project such as "colors", "margins" and etc. so you can easily change some variable values to change it in the whole project
 
 </br>
-![variables Screen Shot](./assets/images/shots/variables.png)
+![BEM Screen Shot](./assets/images/shots/variables.png)
 </br>
 
 Here's why:
