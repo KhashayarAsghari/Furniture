@@ -1786,4 +1786,25 @@ h1.product-title {
     top: 64px;
     margin-bottom: 14px;
   }
+}
+
+.slider-blog {
+  height: 30vh;
+}
+
+.blogpage {
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 32px;
+  background-color: #fff;
+}
+.blogpage__image {
+  width: 100%;
+}
+.blogpage__title {
+  color: #262626;
+  width: 90%;
+  margin: 0px auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }/*# sourceMappingURL=main.css.map */

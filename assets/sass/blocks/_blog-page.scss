@@ -1,0 +1,21 @@
+.slider-blog {
+    height: 30vh;
+}
+
+.blogpage {
+    @include wauto(90%);
+    margin-top: $margin-xxl;
+    background-color: $color-bg-purewhite;
+
+    &__image {
+        width: 100%;
+
+    }
+
+    &__title {
+        color: $color-black;
+        @include wauto(90%);
+        margin-top: $margin-xl;
+        margin-bottom: $margin-xl;
+    }
+}
