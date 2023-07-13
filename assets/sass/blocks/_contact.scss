@@ -1,0 +1,91 @@
+.contact {
+    @include wauto(90%);
+    @include dflex(center, center, column,nowrap);
+
+    &__details {
+        @include dflex(center,center,column,nowrap);
+        margin-bottom: $margin-xxxl;
+        &__location {
+            margin-top: $margin-xxxl;
+            width: 100%;
+            height: 350px;
+            border: 4px solid $color-highlight;
+            outline: 3px solid $color-highlight;
+        }
+
+        &__address-title {
+            margin-top: $margin-xxxl;
+            color: $color-highlight;
+        }
+
+        &__address-details {
+            margin-top: $margin-m;
+            color: $color-black;
+        }
+
+        &__work-time-title {
+            margin-top: $margin-xxl;
+            color: $color-highlight;
+        }
+
+        &__work-time-details {
+            margin-top: $margin-m;
+            color: $color-black;
+        }
+
+        &__pnumbers-title {
+            margin-top: $margin-xxl;
+            color: $color-highlight;
+        }
+
+        &__pnumbers-details {
+            margin-top: $margin-m;
+            color: $color-black;
+        }
+    }
+
+    &__form {
+        
+        padding: $padding-xxl $padding-xl;
+        background-color: $color-purewhite;
+        @include wauto(90%);
+        margin-bottom: $margin-xxxl;
+
+        &__heading {
+            color: $color-highlight;
+            font-size: 1rem;
+            @include wauto(90%);
+        }
+
+        &__form {
+            @include dflex(flex-start,flex-start,column,nowrap);
+
+            
+            &__label {
+                display: none;
+            }
+
+            &__input {
+                @include wauto(90%);
+                margin-top: $margin-l;
+                padding: $padding-l $padding-xl;
+                border: none;
+                border-bottom: 1px solid $color-highlight;
+                outline: none;
+            }
+
+            &__submit {
+                padding: $padding-m $padding-xxxl;
+                margin-left: 5%;
+                margin-top: $margin-xl;
+                background-color: $color-bg-highlight;
+                outline: none;
+                border: none;
+                color: $color-white;
+
+            }
+        }
+
+
+    }
+}

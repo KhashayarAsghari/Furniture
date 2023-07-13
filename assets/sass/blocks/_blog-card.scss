@@ -4,6 +4,8 @@
     max-width: 400px;
     padding-bottom: $padding-l;
     margin: $margin-xl 0px;
+    transition: 0.5s;
+    
 
     @media (min-width: 769px) {
         margin: $margin-xl $margin-s;
@@ -11,17 +13,21 @@
 
     &__image {
         width: 100%;
+        
         @media (min-width: 769px) {
             filter: grayscale(60%);
+            transition: 0.5s;
         }
     }
 
     &:hover .blog-card__image {
         filter: grayscale(0%);
+        transition: 0.5s;
     }
 
     &:hover {
         transform: scale(105%);
+        transition: 0.5s;
     }
 
     &__description {

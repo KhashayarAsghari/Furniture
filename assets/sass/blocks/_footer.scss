@@ -34,7 +34,7 @@
 
         &__location {
             @include wauto(90%);
-
+            outline: 4px solid $color-highlight;
             height: 300px;
         }
 
