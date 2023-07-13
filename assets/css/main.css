@@ -1114,6 +1114,7 @@ body {
   position: sticky;
   top: 80px;
   left: 0;
+  margin-bottom: 16px;
   max-height: 80vh;
   overflow-y: auto;
   display: none;
