@@ -129,11 +129,11 @@ Project Link: [https://github.com/KhashayarAsghari/Furniture](https://github.com
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
-[html5]: https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=E34F26
+[html5]: https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [html5-url]: https://www.w3.org/
-[Sass]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=react&logoColor=CC6699
+[Sass]: https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=CC6699
 [Sass-url]: https://sass-lang.com/
-[css3]: https://img.shields.io/badge/css3-35495E?style=for-the-badge&logo=vuedotjs&logoColor=1572B6
+[css3]: https://img.shields.io/badge/css3-35495E?style=for-the-badge&logo=css3&logoColor=1572B6
 [css3-url]: https://vuejs.org/
 [Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
 [Angular-url]: https://angular.io/
