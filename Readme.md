@@ -64,6 +64,15 @@ All variables stored in _variables.scss file and it is filled by useful variable
 [variables Screen Shot](./assets/images/shots/variables.png)
 </br>
 
+
+
+### It's BEM based
+Every HTML element has a BEM based class name: 
+BEM help developers to select elements in css, much more better and organized.
+</br>
+![BEM Screen Shot](./assets/images/shots/BEM.png)
+
+
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
 * You shouldn't be doing the same tasks over and over like creating a README from scratch
