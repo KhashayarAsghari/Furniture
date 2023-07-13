@@ -25,6 +25,9 @@
         <li>
             <a href="#it-uses-variables">It uses variables</a>
         </li>
+        <li>
+            <a href="#mixins">mixins</a>
+        </li>
       </ul>
     </li>
     <li>
@@ -51,26 +54,31 @@ There are many great features in this project.
 ### It's BEM based
 Every HTML element has a BEM based class name: 
 BEM help developers to select elements in css, much more better and organized.
-</br>
+<br />
 ![BEM Screen Shot](./assets/images/shots/BEM.png)
 
 
-</br>
+<br />
 
 ### It uses variables
 All variables stored in _variables.scss file and it is filled by useful variables for all over the project such as "colors", "margins" and etc. so you can easily change some variable values to change it in the whole project
-
-</br>
-[variables Screen Shot](./assets/images/shots/variables.png)
-</br>
-
-
-
-### It uses variables
-All variables stored in _variables.scss file and it is filled by useful variables for all over the project such as "colors", "margins" and etc. so you can easily change some variable values to change it in the whole project
-</br>
+<br />
 ![variables Screen Shot](./assets/images/shots/variables.png)
+<br />
 
+
+### mixins
+The mixins are awesome, mixins help developer to add similar styles to many elements by less codes, and some mixins in this project could get wanted values to style more customized.
+<br />
+![mixins Screen Shot](./assets/images/shots/mixins.png)
+<br />
+
+
+### mixins
+The mixins are awesome, mixins help developer to add similar styles to many elements by less codes, and some mixins in this project could get wanted values to style more customized.
+<br />
+![mixins Screen Shot](./assets/images/shots/mixins.png)
+<br />
 
 Here's why:
 * Your time should be focused on creating something amazing. A project that solves a problem and helps others
