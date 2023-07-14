@@ -27,6 +27,7 @@
 
     &:hover {
         transform: scale(105%);
+        outline: 4px solid $color-highlight;
         transition: 0.5s;
     }
 

@@ -651,6 +651,7 @@ body {
 .blog-card:hover {
   -webkit-transform: scale(105%);
           transform: scale(105%);
+  outline: 4px solid #ffbb00;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
