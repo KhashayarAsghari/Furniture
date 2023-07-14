@@ -20,7 +20,7 @@
 
         @media (min-width: 769px) {
             @include wauto(90%);
-            @include dflex(space-between, center, row, nowrap);
+            @include dflex(space-between, center, row, wrap);
         }
     }
 

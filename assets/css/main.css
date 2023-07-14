@@ -605,8 +605,8 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 .blog__see-more {
@@ -1883,4 +1883,8 @@ h1.product-title {
     top: -80px;
     max-width: 800px;
   }
+}
+
+.all-blogs__title {
+  margin-top: 32px;
 }/*# sourceMappingURL=main.css.map */
