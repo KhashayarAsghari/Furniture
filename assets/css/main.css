@@ -2047,12 +2047,86 @@ h1.product-title {
   width: 50%;
   max-width: 300px;
   padding: 0.9rem 2rem;
-  top: 0;
-  left: 0;
   background-color: #ffbb00;
   color: #fff;
   border-bottom-right-radius: 32px;
 }
+@media (max-width: 768px) {
+  .about__history__item__date {
+    top: 0;
+    left: 0;
+  }
+}
 .about__history__item__date__description {
   font-size: 0.7rem;
+}
+@media (min-width: 769px) {
+  .about__history {
+    width: 80%;
+    margin: 0px auto;
+    padding: 0;
+  }
+  .about__history__item {
+    padding: 0;
+    width: 100%;
+    margin: 0px auto;
+    margin: 32px auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .about__history__item__image {
+    margin: 0;
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    width: 40%;
+  }
+  .about__history__item__description {
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
+    padding: 0.4rem 0.9rem;
+    margin: 0;
+  }
+  .about__history__item:nth-child(odd) {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+  .about__history__item:nth-child(odd) .about__history__item__date {
+    text-align: right;
+    top: 0;
+    right: 0;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 32px;
+  }
+  .about__history__item:nth-child(even) .about__history__item__date {
+    top: 0;
+    left: 0;
+  }
 }/*# sourceMappingURL=main.css.map */

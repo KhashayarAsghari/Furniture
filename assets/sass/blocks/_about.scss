@@ -73,7 +73,6 @@
         @include wauto(90%);
         margin-top: $margin-xxxl;
 
-
         &__item {
             margin-bottom: $margin-xxl;
             background-color: $color-bg-purewhite;
@@ -93,14 +92,63 @@
                 width: 50%;
                 max-width: 300px;
                 padding: $padding-l $padding-xxxl;
-                top: 0;
-                left: 0;
                 background-color: $color-bg-highlight;
                 color: $color-purewhite;
                 border-bottom-right-radius: 32px;
+                @media (max-width: 768px){
+                    top: 0;
+                    left: 0;
+                }
 
                 &__description {
                     font-size: 0.7rem;
+                }
+            }
+        }
+
+        @media (min-width: 769px){
+            @include wauto(80%);
+            padding: 0;
+
+            &__item {
+                
+                padding: 0;
+                @include wauto(100%);
+                margin: $margin-xxl auto;
+                @include dflex(space-between, center);
+                
+
+                &__image {
+                    margin: 0;
+                    flex: 2;
+                    width: 40%;
+                    
+                    
+                }
+
+                &__description {
+                    flex: 4;
+                    padding: $padding-s $padding-l;
+                    margin: 0;
+                    
+                    
+                }
+
+                &:nth-child(odd) {
+                    @include dflex(space-between,center, row-reverse);
+                    .about__history__item__date {
+                        text-align: right;
+                        top: 0;
+                        right: 0;
+                        border-bottom-right-radius: 0px;
+                        border-bottom-left-radius: 32px;
+                    }
+                }
+                &:nth-child(even) {
+                    .about__history__item__date {
+                        top:0;
+                        left: 0;
+                    }
                 }
             }
         }
