@@ -35,9 +35,6 @@
                 @include wauto(100%);
                 @include dflex (space-between);
                 margin-bottom: $margin-xl;
-                &__title {
-
-                }
             }
 
             &__item {
