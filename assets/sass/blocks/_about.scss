@@ -1,0 +1,108 @@
+.slider-about {
+    height: 30vh;
+    @include dflex(center,center,column);
+    color: $color-purewhite;
+    &__description {
+        font-size: 1rem;
+        margin-top: $margin-l;
+    }
+}
+
+.about {
+
+    &__header {
+        @include wauto(90%);
+        max-width: 769px;
+        text-align: center;
+        margin-top: $margin-xxxl;
+
+        &__title {
+            color: $color-black;
+        }
+
+        &__description {
+            margin-top: $margin-xl;
+            color: $color-gray;
+        }
+
+    }
+
+    &__employees {
+        @include wauto(90%);
+        margin-top: $margin-xxl;
+        @include dflex(center,center, column);
+
+        &__person {
+            margin: $margin-xl auto;
+            @include dflex(flex-start,center,column);
+            &__image {
+                @include wauto(100%);
+
+            }
+
+            &__title {
+                @include wauto(100%);
+                @include dflex(center,center,column);
+                margin-top: 0;
+                padding: $padding-l $padding-s;
+                background-color: $color-bg-highlight;
+                color: $color-purewhite;
+
+
+                &__position {
+                    font-size: 0.8rem;
+                }
+            }
+        }
+
+        @media (min-width: 769px){
+            @include wauto(80%);
+            @include dflex(space-between, center, row,nowrap);
+            margin-top: $margin-xxl;
+            &__person {
+                margin: 0px $margin-xl;
+            }
+        }
+    }
+
+    &__story {
+        background: url('../images/slider/gallery-7.jpg') no-repeat center fixed ;
+    }
+
+    &__history {
+        @include wauto(90%);
+        margin-top: $margin-xxxl;
+
+
+        &__item {
+            margin-bottom: $margin-xxl;
+            background-color: $color-bg-purewhite;
+            position: relative;
+            &__image {
+                width: 100%;
+            }
+
+            &__description {
+                @include wauto(90%);
+                margin-top: $margin-xxl;
+                padding-bottom: $margin-xxl;
+            }
+
+            &__date {
+                position: absolute;
+                width: 50%;
+                max-width: 300px;
+                padding: $padding-l $padding-xxxl;
+                top: 0;
+                left: 0;
+                background-color: $color-bg-highlight;
+                color: $color-purewhite;
+                border-bottom-right-radius: 32px;
+
+                &__description {
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
+}
